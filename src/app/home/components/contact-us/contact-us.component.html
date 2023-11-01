@@ -1,14 +1,21 @@
 <section class="p-8 xs:p-2">
-  <h1 class="text-center text-primary border-bottom-3">Contact Us</h1>
+  <h1 class="text-center text-primary border-bottom-3">Contact Me</h1>
   <div>
     <div>
       <p class="text-center">Feel free to contact me for further discussion.</p>
       <form class="grid grid-cols-1 gap-4 px-4 pt-12 text-center">
-        <div class="flex xs:flex-col gap-3">
-          <input type="text" class="outline-none border rounded p-3 w-full" placeholder="Full Name" />
-          <input type="text" class="outline-none border border-primary rounded p-3 w-full" placeholder="Email" />
+        <div class="flex xs:flex-col justify-start gap-3">
+          <div class="w-full flex flex-col items-start">
+            <mat-label>Full Name</mat-label>
+            <input type="text" class="outline-none border rounded p-3 w-full" placeholder="Full Name" />
+          </div>
+          <div class="w-full flex flex-col items-start">
+            <mat-label>Email</mat-label>
+            <input type="text" class="outline-none border border-primary rounded p-3 w-full" placeholder="Email" />
+          </div>
         </div>
-        <div>
+        <div class="flex flex-col items-start">
+          <mat-label>Description</mat-label>
           <textarea
             type="text"
             class="outline-none border border-primary rounded p-3 w-full"
