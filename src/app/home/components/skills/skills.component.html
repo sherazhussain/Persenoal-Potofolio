@@ -1,0 +1,13 @@
+<section class="p-8">
+  <h1 class="text-center text-primary border-bottom-3 py-9">Technical Skills</h1>
+
+  <div class="grid grid-cols-4 md:grid-cols-2 xs:grid-cols-1 gap-4 place-items-center">
+    <div
+      *ngFor="let skill of skillsList"
+      class="flex flex-col justify-center items-center w-11/12 h-52 border border-primary rounded"
+    >
+      <img [src]="skill.icon" alt="" class="w-24" />
+      <h4 class="text-primary">{{ skill.name }}</h4>
+    </div>
+  </div>
+</section>
