@@ -47,7 +47,7 @@ h2 {
   font-size: clamp(1.08rem, calc(0.64rem + 2.2vw), 3rem);
 
   @include for-phone-only {
-    font-size: clamp(1.08rem, calc(0.64rem + 2.2vw), 3rem);
+    font-size: clamp(2.3rem, calc(0.64rem + 2.2vw), 3rem);
   }
 }
 

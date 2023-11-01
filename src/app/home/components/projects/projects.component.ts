@@ -28,7 +28,7 @@ export class ProjectsComponent implements OnInit {
         id: 2,
         title: 'E-Ride Admin',
         image: 'assets/project-images/E_Ride.PNG',
-        description: 'Admin panel for managing bikes, scooters and also their tracking records.',
+        description: 'Admin panel for managing bikes, scooters and also tracking  their live locations.',
         link: 'https://admin.eridejo.com',
         technologiesUsed: ['Angular 13', 'Angular Material', 'Google Map', 'Tailwind CSS'],
       },
