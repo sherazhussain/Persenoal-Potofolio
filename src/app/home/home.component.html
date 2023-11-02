@@ -1,14 +1,18 @@
 <div class="absolute !top-14">
-  <section
-    class="bg-banner-vedio text-white h-95vh bg-no-repeat center bg-cover flex xs:flex-col justify-center items-center gap-4"
-  >
-    <div class="w-1/2 xs:w-full px-10 xs:px-4 text-center">
-      <h2>I'm Sheraz Hussain</h2>
-      <p>
-        An Angular developer with 2+ years of experience in designing and developing scalable web applications.
-        Proficient in building user-friendly and fully responsive interfaces, implementing robust data management
-        systems, and optimizing application performance.
-      </p>
+  <section class="relative text-white h-95vh flex xs:flex-col justify-center items-center gap-4">
+    <video id="background-video" autoplay loop muted class="absolute top-0 left-0 w-full h-full object-cover">
+      <source src="assets/banner5.mp4" type="video/mp4" />
+    </video>
+
+    <div class="flex justify-center items-center h-full bg-black opacity-70">
+      <div class="w-1/2 xs:w-full px-10 xs:px-4 text-center z-1">
+        <h2>I'm Sheraz Hussain</h2>
+        <p>
+          An Angular developer with 2+ years of experience in designing and developing scalable web applications.
+          Proficient in building user-friendly and fully responsive interfaces, implementing robust data management
+          systems, and optimizing application performance.
+        </p>
+      </div>
     </div>
   </section>
 

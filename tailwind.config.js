@@ -36,7 +36,7 @@ module.exports = {
         'banner-3': "url('/assets/3.jpeg')",
         'banner-4': "url('/assets/4.jpeg')",
         'banner-5': "url('/assets/5.jpeg')",
-        'banner-vedio': "url('/assets/banner-gif.gif')",
+        'banner-vedio': "url('/assets/coding-setup.gif')",
       },
     },
   },
