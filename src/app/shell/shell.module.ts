@@ -14,5 +14,6 @@ import { FooterComponent } from './footer/footer.component';
 @NgModule({
   imports: [CommonModule, TranslateModule, FlexLayoutModule, MaterialModule, AuthModule, I18nModule, RouterModule],
   declarations: [HeaderComponent, ShellComponent, FooterComponent],
+  exports: [FooterComponent],
 })
 export class ShellModule {}

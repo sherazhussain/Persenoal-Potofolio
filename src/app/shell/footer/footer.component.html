@@ -1,5 +1,26 @@
 <div class="bg-primary text-white">
-  <div class="p-2">
-    <span class="font-normal">Copyright © 2023 All Rights Reserved.</span>
+  <div class="text-center p-7">
+    <div class="flex xs:flex-col xs:items-center justify-between p-5">
+      <div class="flex items-baseline min-w-[8rem] cursor-pointer" (click)="viewSocialMediaProfile('linkedin')">
+        <img src="assets/social-icons/linkedin.svg" alt="icon" />
+        <p class="px-2 text-[#3a96f5]">linkedin</p>
+      </div>
+      <div class="flex items-center min-w-[8rem] cursor-pointer" (click)="viewSocialMediaProfile('facebook')">
+        <img src="assets/social-icons/facebook.svg" alt="icon" />
+        <p class="px-2 pl-5 text-[#3a96f5]">Facebook</p>
+      </div>
+      <div class="flex items-center min-w-[8rem] cursor-pointer" (click)="viewSocialMediaProfile('instagram')">
+        <img src="assets/social-icons/instagram.svg" alt="icon" />
+        <p class="px-2 text-[#3a96f5]">Instagram</p>
+      </div>
+      <div class="flex items-center min-w-[8rem] cursor-pointer" (click)="viewSocialMediaProfile('twitter')">
+        <img src="assets/social-icons/twitter.svg" alt="icon" />
+        <p class="px-2 text-[#3a96f5]">Twitter</p>
+      </div>
+    </div>
+    <mat-divider class="w-full bg-[#3a96f5]"></mat-divider>
+    <div class="p-5">
+      <span class="font-normal text-[#3a96f5]">Copyright © 2023 All Rights Reserved.</span>
+    </div>
   </div>
 </div>

@@ -1,4 +1,4 @@
-# Personal-Potofolio
+# Personal-Potfolio
 
 Source code of my personal portfolio website showcasing my projects and skills!
 To view my portfolio website, simply visit the live site at [sheraz-hussain-website.surge.sh](https://sheraz-hussain-website.surge.sh).
