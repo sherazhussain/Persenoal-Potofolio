@@ -6,6 +6,7 @@ import { MatSidenav } from '@angular/material/sidenav';
 
 import { AuthenticationService, CredentialsService } from '@app/auth';
 import { Subscription, fromEvent } from 'rxjs';
+import { DataServiceService } from '@app/@shared/services/data-service.service';
 
 @Component({
   selector: 'app-header',
@@ -20,13 +21,25 @@ export class HeaderComponent implements OnInit {
 
   constructor(
     private router: Router,
-    private titleService: Title,
+    private apiService: DataServiceService,
     private authenticationService: AuthenticationService,
     private credentialsService: CredentialsService,
     @Inject(DOCUMENT) private document: Document
   ) {}
 
   ngOnInit() {}
+
+  scrollToSection(sectionId: string) {
+    this.isMobileMenuOpen = false; //close menu on button click in mobile view
+    this.router
+      .navigate(['/home'])
+      .then(() => {
+        this.apiService.scrollToSection(sectionId);
+      })
+      .catch((err) => {
+        console.log('error in header component', err);
+      });
+  }
 
   toggleMobileMenu() {
     this.isMobileMenuOpen = !this.isMobileMenuOpen;
@@ -40,29 +53,4 @@ export class HeaderComponent implements OnInit {
     const credentials = this.credentialsService.credentials;
     return credentials ? credentials.username : null;
   }
-
-  get title(): string {
-    return this.titleService.getTitle();
-  }
-  @HostListener('window:scroll', [])
-  onWindowScroll() {
-    console.log(window.scrollY);
-    // Detect if the user has scrolled down
-    if (window.scrollY > 50) {
-      this.isScrolled = true;
-    } else {
-      this.isScrolled = false;
-    }
-  }
-
-  // @HostListener('window:scroll', [])
-  // onWindowScroll() {
-  //   console.log(window.scrollY)
-  //   const offset = window.scrollY || this.document.documentElement.scrollTop || this.document.body.scrollTop || 0;
-  //   if (offset > 80) {
-  //     this.isScrolled = true;
-  //   } else {
-  //     this.isScrolled = false;
-  //   }
-  // }
 }

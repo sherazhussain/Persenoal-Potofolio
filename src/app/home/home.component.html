@@ -1,12 +1,12 @@
 <div class="absolute !top-14">
-  <section class="relative text-white h-95vh flex xs:flex-col justify-center items-center gap-4">
+  <section id="bannerSection" class="relative text-white h-95vh flex xs:flex-col justify-center items-center gap-4">
     <video id="background-video" autoplay loop muted class="absolute top-0 left-0 w-full h-full object-cover">
       <source src="assets/banner5.mp4" type="video/mp4" />
     </video>
 
     <div class="flex justify-center items-center h-full bg-black opacity-70">
-      <div class="w-1/2 xs:w-full px-10 xs:px-4 text-center z-1">
-        <h2>I'm Sheraz Hussain</h2>
+      <div class="w-3/4 xs:w-full px-10 xs:px-4 text-center z-1">
+        <h1>I'm Sheraz Hussain</h1>
         <p>
           An Angular developer with 2+ years of experience in designing and developing scalable web applications.
           Proficient in building user-friendly and fully responsive interfaces, implementing robust data management
@@ -17,22 +17,22 @@
   </section>
 
   <!-- Skill Section -->
-  <div>
+  <div id="skillSection">
     <app-skills></app-skills>
   </div>
 
   <!-- Project Section -->
-  <div>
+  <div id="projectSection">
     <app-projects></app-projects>
   </div>
 
   <!-- About Us Section  -->
-  <div>
+  <div id="aboutSection">
     <app-about-us></app-about-us>
   </div>
 
   <!-- Contact Us Section  -->
-  <div>
+  <div id="contactSection">
     <app-contact-us></app-contact-us>
   </div>
 </div>

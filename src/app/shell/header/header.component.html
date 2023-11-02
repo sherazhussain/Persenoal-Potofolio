@@ -10,12 +10,14 @@
     </div>
 
     <!-- Action buttons on the right -->
-    <div class="xs:hidden flex gap-x-4 space-x-4">
-      <a class="text-white hover:text-gray-300">Home</a>
-      <a class="text-white hover:text-gray-300">Projects</a>
-      <a class="text-white hover:text-gray-300">About</a>
-      <a class="text-white hover:text-gray-300">Skills</a>
-      <a class="text-white hover:text-gray-300">Contact Us</a>
+    <div class="xs:hidden flex items-center gap-x-4 space-x-4">
+      <a class="text-white hover:text-[#FF0000] cursor-pointer" (click)="scrollToSection('bannerSection')">Home</a>
+      <a class="text-white hover:text-[#FF0000] cursor-pointer" (click)="scrollToSection('skillSection')">Projects</a>
+      <a class="text-white hover:text-[#FF0000] cursor-pointer" (click)="scrollToSection('projectSection')">About</a>
+      <a class="text-white hover:text-[#FF0000] cursor-pointer" (click)="scrollToSection('aboutSection')">Skills</a>
+      <a class="text-white hover:text-[#FF0000] cursor-pointer" (click)="scrollToSection('contactSection')"
+        >Contact Us</a
+      >
     </div>
 
     <!-- Hamburger menu for mobile -->
@@ -31,11 +33,21 @@
       class="md:hidden absolute top_16 right-0 w-full bg-black p-3"
       [ngClass]="{ block: isMobileMenuOpen, hidden: !isMobileMenuOpen }"
     >
-      <a class="text-white hover:text-gray-300 block">Home</a>
-      <a class="text-white hover:text-gray-300 block">Projects</a>
-      <a class="text-white hover:text-gray-300 block">About</a>
-      <a class="text-white hover:text-gray-300 block">Skills</a>
-      <a class="text-white hover:text-gray-300 block">Contact Us</a>
+      <a class="text-white hover:text-[#FF0000] block cursor-pointer" (click)="scrollToSection('bannerSection')"
+        >Home</a
+      >
+      <a class="text-white hover:text-[#FF0000] block cursor-pointer" (click)="scrollToSection('projectSection')"
+        >Projects</a
+      >
+      <a class="text-white hover:text-[#FF0000] block cursor-pointer" (click)="scrollToSection('aboutSection')"
+        >About</a
+      >
+      <a class="text-white hover:text-[#FF0000] block cursor-pointer" (click)="scrollToSection('skillSection')"
+        >Skills</a
+      >
+      <a class="text-white hover:text-[#FF0000] block cursor-pointer" (click)="scrollToSection('contactSection')"
+        >Contact Us</a
+      >
     </div>
   </div>
 </nav>
