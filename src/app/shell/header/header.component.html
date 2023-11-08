@@ -11,13 +11,13 @@
 
     <!-- Action buttons on the right -->
     <div class="xs:hidden flex items-center gap-x-4 space-x-4">
-      <a class="text-white hover:text-[#3a96f5] cursor-pointer" (click)="scrollToSection('bannerSection')">Home</a>
-      <a class="text-white hover:text-[#3a96f5] cursor-pointer" (click)="scrollToSection('skillSection')">Projects</a>
-      <a class="text-white hover:text-[#3a96f5] cursor-pointer" (click)="scrollToSection('projectSection')">About</a>
-      <a class="text-white hover:text-[#3a96f5] cursor-pointer" (click)="scrollToSection('aboutSection')">Skills</a>
-      <a class="text-white hover:text-[#3a96f5] cursor-pointer" (click)="scrollToSection('contactSection')"
-        >Contact Us</a
+      <a
+        *ngFor="let button of menuButtons"
+        class="text-white hover:text-[#3a96f5] cursor-pointer"
+        (click)="scrollToSection(button.link)"
       >
+        {{ button.name }}
+      </a>
     </div>
 
     <!-- Hamburger menu for mobile -->
@@ -33,20 +33,11 @@
       class="md:hidden absolute top_16 right-0 w-full bg-black p-3"
       [ngClass]="{ block: isMobileMenuOpen, hidden: !isMobileMenuOpen }"
     >
-      <a class="text-white hover:text-[#3a96f5] block cursor-pointer" (click)="scrollToSection('bannerSection')"
-        >Home</a
-      >
-      <a class="text-white hover:text-[#3a96f5] block cursor-pointer" (click)="scrollToSection('projectSection')"
-        >Projects</a
-      >
-      <a class="text-white hover:text-[#3a96f5] block cursor-pointer" (click)="scrollToSection('aboutSection')"
-        >About</a
-      >
-      <a class="text-white hover:text-[#3a96f5] block cursor-pointer" (click)="scrollToSection('skillSection')"
-        >Skills</a
-      >
-      <a class="text-white hover:text-[#3a96f5] block cursor-pointer" (click)="scrollToSection('contactSection')"
-        >Contact Us</a
+      <a
+        *ngFor="let button of menuButtons"
+        class="text-white hover:text-[#3a96f5] block cursor-pointer"
+        (click)="scrollToSection(button.link)"
+        >{{ button.name }}</a
       >
     </div>
   </div>

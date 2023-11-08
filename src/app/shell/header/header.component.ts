@@ -19,16 +19,44 @@ export class HeaderComponent implements OnInit {
   isMobileMenuOpen: boolean = false;
   isScrolled = false;
 
+  menuButtons: any = [];
+
   constructor(
     private router: Router,
     private apiService: DataServiceService,
     private authenticationService: AuthenticationService,
     private credentialsService: CredentialsService,
     @Inject(DOCUMENT) private document: Document
-  ) {}
+  ) {
+    this.intializeMenuButtons();
+  }
 
   ngOnInit() {}
 
+  intializeMenuButtons() {
+    this.menuButtons = [
+      {
+        name: 'Home',
+        link: 'bannerSection',
+      },
+      {
+        name: 'Projects',
+        link: 'projectSection',
+      },
+      {
+        name: 'About',
+        link: 'aboutSection',
+      },
+      {
+        name: 'Skills',
+        link: 'skillSection',
+      },
+      {
+        name: 'Contact Us',
+        link: 'contactSection',
+      },
+    ];
+  }
   scrollToSection(sectionId: string) {
     this.isMobileMenuOpen = false; //close menu on button click in mobile view
     this.router
