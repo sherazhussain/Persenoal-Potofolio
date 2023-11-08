@@ -6,8 +6,8 @@
       *ngFor="let skill of skillsList"
       class="flex flex-col justify-center items-center w-11/12 h-52 border border-primary rounded"
     >
-      <img [src]="skill.icon" alt="" class="w-24" />
-      <h4 class="text-primary">{{ skill.name }}</h4>
+      <img [src]="skill.icon" alt="" [class]="skill.class" />
+      <h4 [class]="skill.headingStyle">{{ skill.name }}</h4>
     </div>
   </div>
 </section>
