@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="890" height="353.121" viewBox="0 0 890 353.121">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.52" y1="0.195" x2="0.49" y2="0.533" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#13355c"/>
+      <stop offset="0.996" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="Sheraz_Hussain" x="0" y="265.121" width="890" height="88" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.22"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_95947" data-name="Group 95947" transform="translate(7)">
+    <g id="Group_95946" data-name="Group 95946" transform="translate(242.753 0)">
+      <g id="Group_95944" data-name="Group 95944" transform="translate(0 43.699)">
+        <g id="Group_95940" data-name="Group 95940" transform="translate(264.633)">
+          <g id="Group_95938" data-name="Group 95938" transform="translate(0 60.103)">
+            <path id="Path_143356" data-name="Path 143356" d="M293.8,237.3V269.1A11.027,11.027,0,0,0,309,279.308L432.139,228.88a15.672,15.672,0,0,0,9.733-14.5V196.319a11.362,11.362,0,0,0-15.25-10.677L296.9,232.868A4.712,4.712,0,0,0,293.8,237.3Z" transform="translate(-293.795 -184.946)" fill="#041e39"/>
+          </g>
+          <g id="Group_95939" data-name="Group 95939" transform="translate(0 71.698)">
+            <path id="Path_143357" data-name="Path 143357" d="M293.8,247.568v18.654A11.027,11.027,0,0,0,309,276.426L432.139,226a15.672,15.672,0,0,0,9.733-14.5V193.66Z" transform="translate(-293.795 -193.66)" fill="#041e39"/>
+          </g>
+          <path id="Path_143358" data-name="Path 143358" d="M298.593,233.53v30.781a10.734,10.734,0,0,0,14.8,9.934l115.262-47.2a15.672,15.672,0,0,0,9.733-14.5V194.7a8.446,8.446,0,0,0-11.335-7.938Z" transform="translate(-292.208 -124.413)" opacity="0.83" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+          <path id="Path_143359" data-name="Path 143359" d="M441.871,217.446v-8.37a20.936,20.936,0,0,0-13-19.375L309,140.613a11.027,11.027,0,0,0-15.206,10.2v31.806a4.712,4.712,0,0,0,3.1,4.429l123.942,45.121A15.672,15.672,0,0,0,441.871,217.446Z" transform="translate(-293.795 -139.779)" fill="#041e39"/>
+        </g>
+        <g id="Group_95943" data-name="Group 95943">
+          <g id="Group_95941" data-name="Group 95941" transform="translate(0 60.103)">
+            <path id="Path_143361" data-name="Path 143361" d="M110.177,185.642a11.363,11.363,0,0,0-15.251,10.677v18.057a15.674,15.674,0,0,0,9.734,14.5L227.8,279.308A11.027,11.027,0,0,0,243,269.1V237.3a4.712,4.712,0,0,0-3.1-4.429Z" transform="translate(-94.926 -184.946)" fill="#041e39"/>
+          </g>
+          <g id="Group_95942" data-name="Group 95942" transform="translate(0 71.698)">
+            <path id="Path_143362" data-name="Path 143362" d="M94.926,193.66V211.5A15.674,15.674,0,0,0,104.66,226L227.8,276.426A11.027,11.027,0,0,0,243,266.221V247.568Z" transform="translate(-94.926 -193.66)" fill="#041e39"/>
+          </g>
+          <path id="Path_143363" data-name="Path 143363" d="M107.687,186.764A8.447,8.447,0,0,0,96.351,194.7V212.54a15.674,15.674,0,0,0,9.734,14.5l114.836,47.028a11.043,11.043,0,0,0,15.227-10.22V233.53Z" transform="translate(-94.455 -124.413)" opacity="0.83" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+          <path id="Path_143364" data-name="Path 143364" d="M115.962,232.173,239.9,187.052a4.712,4.712,0,0,0,3.1-4.429V150.817a11.027,11.027,0,0,0-15.206-10.2L107.928,189.7a20.937,20.937,0,0,0-13,19.375v8.37A15.673,15.673,0,0,0,115.962,232.173Z" transform="translate(-94.926 -139.779)" fill="#041e39"/>
+          <path id="Path_143365" data-name="Path 143365" d="M94.926,209.076h0a20.937,20.937,0,0,1,13-19.375L227.8,140.613A11.027,11.027,0,0,1,243,150.817v32.051a4.712,4.712,0,0,1-2.789,4.3h0V165.947a11.026,11.026,0,0,0-15.21-10.2Z" transform="translate(-94.926 -139.779)" fill="#041e39"/>
+        </g>
+      </g>
+      <g id="Group_95945" data-name="Group 95945" transform="translate(147.674)">
+        <path id="Path_143366" data-name="Path 143366" d="M322.931,115.042,249.7,331.321a27.047,27.047,0,0,1-25.62,18.373H212.039a6.133,6.133,0,0,1-5.81-8.1l73.143-216.273a27.049,27.049,0,0,1,25.622-18.382h12.128A6.133,6.133,0,0,1,322.931,115.042Z" transform="translate(-205.902 -106.939)" opacity="0.83" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+        <path id="Path_143367" data-name="Path 143367" d="M322.931,115.042,249.7,331.321a27.047,27.047,0,0,1-25.62,18.373H212.039a6.133,6.133,0,0,1-5.81-8.1l73.143-216.273a27.049,27.049,0,0,1,25.622-18.382h12.128A6.133,6.133,0,0,1,322.931,115.042Z" transform="translate(-205.902 -106.939)" fill="#13355c" opacity="0.83" style="mix-blend-mode: multiply;isolation: isolate"/>
+        <path id="Path_143368" data-name="Path 143368" d="M279.372,125.324,206.229,341.6a6.133,6.133,0,0,0,5.81,8.1H222.9l82.1-242.752h0A27.049,27.049,0,0,0,279.372,125.324Z" transform="translate(-205.902 -106.939)" opacity="0.83" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+        <path id="Path_143369" data-name="Path 143369" d="M311.355,115.04h11.578a6.132,6.132,0,0,0-5.809-8.1H304.99a27.047,27.047,0,0,0-25.622,18.383L206.234,341.6a6.133,6.133,0,0,0,5.81,8.1h.556l73.132-216.274A27.047,27.047,0,0,1,311.355,115.04Z" transform="translate(-205.9 -106.94)" opacity="0.83" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -7, 0)" filter="url(#Sheraz_Hussain)">
+      <text id="Sheraz_Hussain-2" data-name="Sheraz Hussain" transform="translate(445 324.12)" fill="#fff" font-size="52" font-family="EximaGeometric-Regular, Exima Geometric" letter-spacing="0.1em"><tspan x="-438.022" y="0">Sheraz Hussain</tspan></text>
+    </g>
+  </g>
+</svg>

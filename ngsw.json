@@ -1,0 +1,135 @@
+{
+  "configVersion": 1,
+  "timestamp": 1721818453710,
+  "index": "https://github.com/sherazhussain/Personal-Potofolio.git/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://github.com/sherazhussain/Personal-Potofolio.git/10.e5234ecd2bd5f3f9.js",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/favicon.ico",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/index.html",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/main.19b2766e6a902744.js",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/manifest.webmanifest",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/polyfills.f59a35d0a084408c.js",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/runtime.62e803c62608dc01.js",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/styles.83d094f941be5c91.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://github.com/sherazhussain/Personal-Potofolio.git/MaterialIcons-Regular.14b0bb77466d9f38.woff",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/MaterialIcons-Regular.d1b99623aaa86364.woff2",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/MaterialIcons-Regular.fa58bcb97f2ed321.ttf",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/apple-touch-icon.png",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/assets/1.jpeg",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/assets/2.jpeg",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/assets/3.jpeg",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/assets/4.jpeg",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/assets/5.jpeg",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/assets/DP-3.png",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/assets/banner5.mp4",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/assets/banner6.mp4",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/assets/ngx-rocket-logo.png",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/assets/ngx-rocket-logo@192.png",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/assets/project-images/E_Ride.PNG",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/assets/project-images/E_ride_web.PNG",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/assets/project-images/blissree.PNG",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/assets/project-images/goongetit.PNG",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/assets/project-images/neuroQur.png",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/assets/project-images/spreadlee.PNG",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/assets/sheraz-logo.svg",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/assets/skills-section/angular.png",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/assets/skills-section/css.png",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/assets/skills-section/fxlayout.png",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/assets/skills-section/html.png",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/assets/skills-section/html.svg",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/assets/skills-section/material.png",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/assets/skills-section/scss.png",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/assets/skills-section/tailwind.png",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/assets/skills-section/typescript.png",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/assets/social-icons/facebook.svg",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/assets/social-icons/instagram.svg",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/assets/social-icons/linkedin.svg",
+        "https://github.com/sherazhussain/Personal-Potofolio.git/assets/social-icons/twitter.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://github.com/sherazhussain/Personal-Potofolio.git/10.e5234ecd2bd5f3f9.js": "19ffc62d3245345133f45e1614ccadd684ef7eb4",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/MaterialIcons-Regular.14b0bb77466d9f38.woff": "e5fa525648c74213cdeb8554aa77057f0c4d8488",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/MaterialIcons-Regular.d1b99623aaa86364.woff2": "7e67acf56f6d527980504c3d0dd2a30d706e5339",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/MaterialIcons-Regular.fa58bcb97f2ed321.ttf": "b582b869fe05f35f5a1d08cdf50b2b5eb37bae44",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/apple-touch-icon.png": "229df2094cc590088de00ea97a1eb4e4493101d2",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/assets/1.jpeg": "0056df592b6b728733a50928ed290f34630f50b1",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/assets/2.jpeg": "be056d1a2a37afa4672e8cbdde671ee9e5e1561d",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/assets/3.jpeg": "50821c40c2d28301cda7365a2288aa412b938b89",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/assets/4.jpeg": "96aa8a95052ba0244dba8a94ae94a3b34ff1dee5",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/assets/5.jpeg": "2994380896e24901a0440947690a0d8f7ee67748",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/assets/DP-3.png": "5eb585d2e50157f25e28e05ad170ffca6c5a2500",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/assets/banner5.mp4": "7a505795b02bc461cb373619f48e9da917ae38e7",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/assets/banner6.mp4": "033d571609eca2730d18ca3bd87500add199b0d4",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/assets/ngx-rocket-logo.png": "0ac53fd27406fe5a36e68285315fb0012e54058e",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/assets/ngx-rocket-logo@192.png": "461b730f9c6dc818f8af9acbe62dfde24dc02d7a",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/assets/project-images/E_Ride.PNG": "a0a80b62d18142a9c5aaee36da83892046602b38",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/assets/project-images/E_ride_web.PNG": "78f064cf0d85a771d26393d7e6c7766fdb66870e",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/assets/project-images/blissree.PNG": "45a8e62a62b42c1ce9d59d52bd5dc8d474a7c700",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/assets/project-images/goongetit.PNG": "1a1ad63aff31760913fc22249703a3e708fc11f2",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/assets/project-images/neuroQur.png": "80842438ae16b4e76377194c17bc902c70accc44",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/assets/project-images/spreadlee.PNG": "9fdc48ec43a8e13a2cdc0fd60a111ca061ced4e4",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/assets/sheraz-logo.svg": "111aa1fda3b37cb1369e0c720873c101d224e62f",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/assets/skills-section/angular.png": "f0191f8d50460c560d9e28b29e849b4f44ed0bf4",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/assets/skills-section/css.png": "817da10d009052a7a9b3331a4da2e284c470ed41",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/assets/skills-section/fxlayout.png": "37a1a968a14b0d587b67157264cec09192378a1a",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/assets/skills-section/html.png": "f389464be3c9d3917bcb3c289d867db5d3fe7331",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/assets/skills-section/html.svg": "8dc1189afc3d4b1c23f6a1cfa3c44d434518e88b",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/assets/skills-section/material.png": "8febeeb62fa798344e20876e8de8461f9032882f",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/assets/skills-section/scss.png": "41dbf4bcca25f50eeab9d0249ae08c569e25726c",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/assets/skills-section/tailwind.png": "56d7d261824556294c72fc16f4f965061be78c87",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/assets/skills-section/typescript.png": "fcbc6e36708b5f79356ca94118e19f74f761703f",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/assets/social-icons/facebook.svg": "bffcea05e3b7c3d06dd65cf0fa6b0d3888044f71",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/assets/social-icons/instagram.svg": "750faf09bf76202281265866659f5294072b41d3",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/assets/social-icons/linkedin.svg": "4830ec5858ddb81ad5071a5906d491eff83f4d2a",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/assets/social-icons/twitter.svg": "add3da344da145787f2aaf6de514c87da1eb131f",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/favicon.ico": "b65083d46bbf63692d5d2cdd69622e6d7ecae317",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/index.html": "5078217778ec941e307c3c8c5baf429804f237bd",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/main.19b2766e6a902744.js": "da28d5fe9aaacb42e148c85f3542872791a4ff46",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/manifest.webmanifest": "ecab0a2f3db25356001d97ad086caa2d9ca9cb0e",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/polyfills.f59a35d0a084408c.js": "4ce700322d9bc075bc1045e60d8ef3e15cfcbbfc",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/runtime.62e803c62608dc01.js": "fb8ffd680878b0ef769f8affdb18230163eee77a",
+    "https://github.com/sherazhussain/Personal-Potofolio.git/styles.83d094f941be5c91.css": "01506e00d5ee2aa51ebc93dfce6d3f8823b9661d"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
